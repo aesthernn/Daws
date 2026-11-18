@@ -1,0 +1,150 @@
+{
+  "arkan": {
+    "ringkasan": "Dashboard Owner Dawning Project: pusat kendali ACC, KPI agensi, pipeline konten & anggaran.",
+    "angka": [
+      {
+        "label": "Struktur",
+        "nilai": "CEO + 8 Divisi"
+      },
+      {
+        "label": "Total Kru",
+        "nilai": "34 orang"
+      }
+    ]
+  },
+  "revan": {
+    "ringkasan": "CEO melapor ke Ruangan Arkan untuk ACC roadmap 24 konten viral & target pertumbuhan agensi.",
+    "menunggu": [
+      "ACC Target 24 Konten Viral & KPI Dawning Project"
+    ],
+    "mendesak": [
+      "Izin Owner untuk peluncuran series AI Creator baru"
+    ]
+  },
+  "nadia_mgr": {
+    "ringkasan": "Manajer memastikan alur Riset \u2192 Script \u2192 Visual \u2192 VO \u2192 Edit \u2192 Upload berjalan sesuai ACC Owner.",
+    "menunggu": [
+      "ACC jadwal produksi lintas 8 divisi"
+    ]
+  },
+  "raka": {
+    "ringkasan": "Melaporkan 5 topik tren viral AI & eksperimen workflow terbaru ke Ruangan Arkan untuk di-ACC.",
+    "menunggu": [
+      "ACC 5 Ide Topik Viral AI & Update Workflow"
+    ]
+  },
+  "alya": {
+    "ringkasan": "Analisis pergeseran algoritma TikTok & YouTube Shorts selesai; menunggu ACC Arkan."
+  },
+  "fajar": {
+    "ringkasan": "Pipeline otomatisasi AI prompt & lip-sync siap dipakai tim setelah mendapat izin Owner."
+  },
+  "dimas": {
+    "ringkasan": "Bank 25 hook viral entertainment disusun; siap diturunkan ke Divisi Content setelah ACC."
+  },
+  "sekar": {
+    "ringkasan": "Menghadap Arkan untuk ACC konsep series AI Creator & format konten entertainment mingguan.",
+    "menunggu": [
+      "ACC Konsep Series AI Creator & Format Entertainment"
+    ]
+  },
+  "bima": {
+    "ringkasan": "Desain karakter AI influencer & persona virtual siap masuk tahap scripting setelah ACC."
+  },
+  "maya": {
+    "ringkasan": "Pilar konten edukasi-hiburan Reels & TikTok selesai dipetakan; menunggu persetujuan Owner."
+  },
+  "tari": {
+    "ringkasan": "Format episode interaktif YouTube & polling komunitas siap dijalankan setelah di-ACC Arkan."
+  },
+  "damar": {
+    "ringkasan": "Melaporkan 7 naskah utama, hook pembuka & copywriting ke Arkan untuk mendapatkan ACC.",
+    "menunggu": [
+      "ACC 7 Naskah Utama, Hook 3 Detik & Copy Campaign"
+    ]
+  },
+  "vina": {
+    "ringkasan": "Naskah 5 video pendek dengan retention hook selesai ditulis; menunggu izin produksi."
+  },
+  "galih": {
+    "ringkasan": "Skrip dokumenter AI & podcast hiburan durasi 12 menit siap masuk studio VO setelah ACC."
+  },
+  "citra": {
+    "ringkasan": "Copywriting iklan, caption viral, dan CTA konversi siap dipakai setelah ACC Arkan."
+  },
+  "kevin": {
+    "ringkasan": "Melaporkan konsep visual AI Art, set 3D & 3 varian thumbnail ke Arkan untuk ACC.",
+    "menunggu": [
+      "ACC Style Visual AI Art, Avatar 3D & Thumbnail"
+    ]
+  },
+  "intan": {
+    "ringkasan": "Generate 40 keyframe AI Art resolusi tinggi selesai; menunggu ACC estetika dari Owner."
+  },
+  "rendi": {
+    "ringkasan": "Rigging karakter 3D & latar studio virtual siap dirender begitu naskah dan visual di-ACC."
+  },
+  "salsa": {
+    "ringkasan": "Desain thumbnail A/B test dengan kontras tinggi siap diuji setelah disetujui Arkan."
+  },
+  "melodi": {
+    "ringkasan": "Melaporkan sampel rekaman narator & preset AI Voice Cloning ke Arkan untuk ACC.",
+    "menunggu": [
+      "ACC Karakter Suara Narator & Preset AI Voice"
+    ]
+  },
+  "arif": {
+    "ringkasan": "Dubbing karakter komedi & narasi dramatis siap direkam di booth studio setelah ACC."
+  },
+  "nisa": {
+    "ringkasan": "Model AI Voice multibahasa telah dikalibrasi; menunggu izin penggunaan dari Owner."
+  },
+  "tio": {
+    "ringkasan": "Paket sound effect (SFX) & musik latar bebas hak cipta siap dimixing setelah VO masuk."
+  },
+  "bagas": {
+    "ringkasan": "Melaporkan template motion graphics & standar pacing editing ke Arkan untuk ACC.",
+    "menunggu": [
+      "ACC Template Motion Graphics, Pacing Cut & Color LUT"
+    ]
+  },
+  "reza": {
+    "ringkasan": "Rough cut 4 video pendek siap dipoles dengan dynamic subtitle setelah naskah di-ACC."
+  },
+  "gilang": {
+    "ringkasan": "Preset animasi teks kinetik & transisi 3D siap diterapkan pada episode minggu ini."
+  },
+  "putri": {
+    "ringkasan": "Color grading sinematik & LUT khas channel siap diaplikasikan setelah ACC Arkan."
+  },
+  "lita": {
+    "ringkasan": "Melaporkan jadwal upload prime-time YouTube, TikTok & IG Reels ke Arkan untuk ACC.",
+    "menunggu": [
+      "ACC Jadwal Tayang Prime-Time Multi-Platform"
+    ]
+  },
+  "hendra": {
+    "ringkasan": "Antrean unggah multi-platform siap dijadwalkan otomatis begitu video final di-ACC."
+  },
+  "sinta": {
+    "ringkasan": "Riset kata kunci SEO YouTube, hashtag tren & deskripsi konversi siap dipasang."
+  },
+  "wulan": {
+    "ringkasan": "Kalender cross-posting Shorts, Reels & TikTok tersusun rapi menunggu lampu hijau Owner."
+  },
+  "doni": {
+    "ringkasan": "Melaporkan anggaran boost ads & kontrak endorsement brand ke Ruangan Arkan untuk ACC.",
+    "menunggu": [
+      "ACC Budget Boost Ads & Kontrak Endorsement Brand"
+    ]
+  },
+  "clarissa": {
+    "ringkasan": "2 penawaran sponsorship brand & kolaborasi kreator siap ditandatangani setelah ACC Arkan."
+  },
+  "ilham": {
+    "ringkasan": "Struktur kampanye Meta & TikTok Ads siap diluncurkan begitu konten utama tayang."
+  },
+  "keisha": {
+    "ringkasan": "Laporan ROAS, RPM AdSense, dan konversi produk digital disiapkan untuk tinjauan Owner."
+  }
+}
