@@ -16,6 +16,24 @@ import { buatKitGaya } from './gaya';
 import { type Peran } from './gaya/alat';
 import { moveTargetAt, type DeskState } from './office';
 
+type AgentKey = string;
+
+export interface SceneProps {
+  desks: readonly DeskState[];
+  night: boolean;
+  boardCount: number;
+  anchors: React.RefObject>;
+  boardAnchor: React.RefObject<HTMLElement | null>;
+  cinematic?: boolean;
+  manual?: boolean;
+  drive?: { current: ((t: number) => void) | null };
+  onReady?: () => void;
+  onFail?: () => void;
+  gaya?: string;
+  pixelScale?: number;
+  focusRoom?: RoomKey | 'all';
+}
+
 const shade = (hex: string, f: number) => {
   const c = new Color(hex);
   c.multiplyScalar(1 - f);
@@ -64,7 +82,6 @@ export function mountOffice(container: HTMLElement, props: SceneProps) {
   const kantor = new Group();
   scene.add(kantor);
 
-  // Materials & Helpers
   const mat = (color: string, peran: Peran) => K.bahan(color, peran);
   const box = (w: number, h: number, d: number, m: MeshLambertMaterial, x: number, y: number, z: number) => {
     const mesh = new Mesh(K.kotak(w, h, d, m.userData.peran), m);
@@ -73,7 +90,6 @@ export function mountOffice(container: HTMLElement, props: SceneProps) {
     return mesh;
   };
 
-  // Build Floors
   ROOMS.forEach((r) => {
     const m = mat(r.floor, 'lantai');
     const rw = r.x1 - r.x0;
@@ -88,7 +104,6 @@ export function mountOffice(container: HTMLElement, props: SceneProps) {
   box(W, 3.2, 0.18, wallM, CX, 1.6, Z0 - 0.09);
   box(0.18, 3.2, D, wallSideM, X0 - 0.09, 1.6, CZ);
 
-  // Lighting
   const ambient = new AmbientLight('#fff8ee', 1.2);
   scene.add(ambient);
 
@@ -96,7 +111,6 @@ export function mountOffice(container: HTMLElement, props: SceneProps) {
   sun.position.set(20, 30, 20);
   scene.add(sun);
 
-  // Animation Loop untuk menggerakkan elemen kantor
   let rafId = 0;
   const draw = (t: number) => {
     renderer.render(scene, camera);
