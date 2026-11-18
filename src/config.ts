@@ -362,3 +362,27 @@ export const BABAK = [
   { dari: '10:00', sampai: '11:50', detik: 10, judul: 'Siang · Produksi Konten, Visual, VO, Editing & Ads' },
   { dari: '16:20', sampai: '18:00', detik: 10, judul: 'Sore · Istirahat Kantin, Kolam Renang & Badminton' },
 ];
+export const RUANGAN = [
+  { key: 'owner', label: 'Ruangan Owner · Dawning Project', x0: -15.2, x1: -7.6, z0: -13.6, z1: -8.6, warna: '#ebd8bd', karpet: '#d4af37', jenis: 'owner' },
+  { key: 'manajemen', label: 'Ruang CEO & Manajer', x0: -6.8, x1: -0.4, z0: -13.6, z1: -8.6, warna: '#e6e4f2', karpet: '#6366f1', jenis: 'manajemen' },
+  
+  // Ruang Rapat Utama (Briefing CEO)
+  { key: 'ruang_rapat', label: 'Ruang Rapat Utama', x0: 0.4, x1: 7.2, z0: -13.6, z1: -8.6, warna: '#e0e7ff', karpet: '#4f46e5', jenis: 'fasilitas' },
+  
+  // Mushola / Tempat Sholat & Tenang
+  { key: 'tempat_sholat', label: 'Mushola / Tempat Sholat', x0: 7.8, x1: 15.2, z0: -13.6, z1: -8.6, warna: '#d1fae5', karpet: '#059669', jenis: 'fasilitas' },
+
+  { key: 'riset', label: 'Divisi Riset, Ide & Dev', x0: -15.2, x1: -7.9, z0: -7.8, z1: -2.0, warna: '#ead9c3', karpet: '#e4572e', jenis: 'divisi' },
+  { key: 'content', label: 'Divisi Content', x0: -7.3, x1: -0.3, z0: -7.8, z1: -2.0, warna: '#f5e4ec', karpet: '#ec4899', jenis: 'divisi' },
+  { key: 'scripting', label: 'Divisi Scripting', x0: 0.3, x1: 7.3, z0: -7.8, z1: -2.0, warna: '#f0e4d0', karpet: '#eab308', jenis: 'divisi' },
+  { key: 'visualizing', label: 'Divisi Visualizing', x0: 7.9, x1: 15.2, z0: -7.8, z1: -2.0, warna: '#e3ecf5', karpet: '#3b82f6', jenis: 'divisi' },
+
+  { key: 'voiceover', label: 'Divisi Voice Over', x0: -15.2, x1: -7.9, z0: -1.0, z1: 4.8, warna: '#ebe3f5', karpet: '#8b5cf6', jenis: 'divisi' },
+  { key: 'editing', label: 'Divisi Editing', x0: -7.3, x1: -0.3, z0: -1.0, z1: 4.8, warna: '#e4d8c8', karpet: '#14b8a6', jenis: 'divisi' },
+  { key: 'upload', label: 'Divisi Upload', x0: 0.3, x1: 7.3, z0: -1.0, z1: 4.8, warna: '#e6efe6', karpet: '#22c55e', jenis: 'divisi' },
+  { key: 'marketing', label: 'Divisi Marketing', x0: 7.9, x1: 15.2, z0: -1.0, z1: 4.8, warna: '#f6e4dc', karpet: '#f43f5e', jenis: 'divisi' },
+
+  { key: 'kantin', label: 'Kantin & Kafe', x0: -15.2, x1: -2.6, z0: 5.6, z1: 11.4, warna: '#f6e7d8', karpet: '#d97706', jenis: 'fasilitas' },
+  { key: 'kolam', label: 'Kolam Renang & Santai', x0: -1.8, x1: 15.2, z0: 5.6, z1: 11.4, warna: '#eadbc8', karpet: '#0284c7', jenis: 'fasilitas' },
+] as const;
+
