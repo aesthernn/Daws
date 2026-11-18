@@ -889,3 +889,22 @@ function Tag({
     </div>
   );
 }
+<div className="ko-section-box" style={{ border: '2px solid #4f46e5', background: '#eef2ff' }}>
+  <h4 style={{ color: '#4f46e5' }}>💼 Kontrol Rapat & Aktivitas Kru</h4>
+  <p style={{ fontSize: '11px', color: '#4b5563', marginBottom: '8px' }}>
+    Perintahkan CEO Revan untuk mengumpulkan seluruh Kepala Divisi ke Ruang Rapat Utama.
+  </p>
+  <button 
+    type="button" 
+    className="ko-btn-acc-all" 
+    style={{ background: '#4f46e5', color: '#fff', padding: '8px', fontWeight: 'bold', borderRadius: '6px' }}
+    onClick={() => {
+      setMode('laporan');
+      setActiveAnnouncement("📢 CEO Revan: Seluruh Kepala Divisi harap berkumpul di Ruang Rapat Utama sekarang!");
+      tampilToast("💼 CEO memanggil rapat darurat seluruh kepala divisi!");
+    }}
+  >
+    📢 Panggil Rapat Divisi (Ruang Rapat)
+  </button>
+</div>
+
