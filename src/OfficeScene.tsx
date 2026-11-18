@@ -1,7 +1,5 @@
 import {
   AmbientLight,
-  BoxGeometry,
-  BufferGeometry,
   Color,
   DirectionalLight,
   Group,
@@ -14,7 +12,7 @@ import {
 import { RUANGAN, type RoomKey } from './config';
 import { buatKitGaya } from './gaya';
 import { type Peran } from './gaya/alat';
-import { moveTargetAt, type DeskState } from './office';
+import { type DeskState } from './office';
 
 type AgentKey = string;
 
