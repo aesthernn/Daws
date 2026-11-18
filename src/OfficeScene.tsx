@@ -16,24 +16,6 @@ import { buatKitGaya } from './gaya';
 import { type Peran } from './gaya/alat';
 import { moveTargetAt, type DeskState } from './office';
 
-type AgentKey = string;
-
-export interface SceneProps {
-  desks: readonly DeskState[];
-  night: boolean;
-  boardCount: number;
-  anchors: React.RefObject>;
-  boardAnchor: React.RefObject<HTMLElement | null>;
-  cinematic?: boolean;
-  manual?: boolean;
-  drive?: { current: ((t: number) => void) | null };
-  onReady?: () => void;
-  onFail?: () => void;
-  gaya?: string;
-  pixelScale?: number;
-  focusRoom?: RoomKey | 'all';
-}
-
 const shade = (hex: string, f: number) => {
   const c = new Color(hex);
   c.multiplyScalar(1 - f);
