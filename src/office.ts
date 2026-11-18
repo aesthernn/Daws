@@ -250,3 +250,16 @@ export function params(q: URLSearchParams) {
     alwaysWork: q.get('libur') !== '1',
   };
 }
+export type IdleSpot = 'meja' | 'owner' | 'kantin' | 'kolam' | 'badminton' | 'lounge' | 'rapat' | 'sholat';
+
+export const IDLE_LABEL: Record<IdleSpot, string> = {
+  meja: 'siap menerima perintah',
+  owner: 'lapor ke Ruangan Arkan',
+  kantin: 'makan & ngopi di Kantin',
+  kolam: 'berenang & santai di Kolam',
+  badminton: 'main Badminton indoor',
+  lounge: 'santai di Lounge & papan misi',
+  rapat: 'mengikuti Ruang Rapat Utama',
+  sholat: 'beribadah di Mushola kantor',
+};
+
